@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tim Pelatihan</title>
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 59px;
+            padding: 0 30px;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+
+<body style="background-image: url('topo.png')">
+    <a href="index.html" style="
+        font-size: 45px;
+        text-align: center;
+        font-family: fantasy;
+        letter-spacing: 4px;
+        text-decoration:none; "><p style="color: black;">
+        TIM PELATIHAN
+    </p></a>
+
+    <br />
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/team/team-1.jpg" alt="Mai" style="width: 100%" />
+                <div class="container">
+                    <p style="font-size: 25px; text-align: center; font-family: fantasy">
+                        Mai Warman, S.Si
+                    </p>
+                    <p style="font-size: 15px; text-align: center; color: #555">
+                        GIS Expert & WebGIS
+                    </p>
+                    <p style="font-size: 15px; text-align: center; letter-spacing: 2px">
+                        Spatial Analyst. Berpengalaman melakukan analisa GIS terutama
+                        untuk kebencanaan dan webgis, juga berpengalaman dalam berbagai
+                        proyek di antaranya survey air tanah/geohidrologi, memiliki
+                        lisensi aktif BNSP GIS Expert.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/team/team-2.jpg" alt="Yetti" style="width: 100%" />
+                <div class="container">
+                    <p style="font-size: 25px; text-align: center; font-family: fantasy">
+                        Yetti Anita Sari, M.Sc
+                    </p>
+                    <p style="font-size: 15px; text-align: center; color: #555">
+                        GIS Expert
+                    </p>
+                    <p style="font-size: 15px; text-align: center; letter-spacing: 2px">
+                        GIS konsultan, telah bekerja dalam bidang GIS sejak lama dan Ahli
+                        Tata Ruang, mempunyai lisensi GIS Supervisor dari BNSP.
+                        Berpengalaman dalam pengembangan aplikasi GIS berbasis desktop,
+                        memiliki lisensi aktif BNSP GIS Expert.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <img src="assets/img/team/team-3.jpg" alt="John" style="width: 100%" />
+                <div class="container">
+                    <p style="font-size: 25px; text-align: center; font-family: fantasy">
+                        Andes Asmuni, S.Si
+                    </p>
+                    <p style="font-size: 15px; text-align: center; color: #555">
+                        GIS Expert & Pilot Drone
+                    </p>
+                    <p style="font-size: 15px; text-align: center; letter-spacing: 2px">
+                        GIS Trainer, Sejak 2015 telah bekerja dalam bidang survey dan
+                        pemetaan. Berpengalaman dalam berbagai proyek. Memiliki keahlian
+                        dalam mengoperasikan softaware-software pemetaan dan pilot drone
+                        sering melakukan pelatihan diberbagai daerah di Indonesia,
+                        memiliki lisensi aktif BNSP GIS Expert.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
